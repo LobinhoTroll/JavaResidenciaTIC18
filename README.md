@@ -4,4 +4,5 @@
 2. Introdução a sintaxe do Java.
 3. Exemplo Hello Word.
 4. Atividade calculadora.
+5. Atividade conversor de temperatura
 ## Semana 2
