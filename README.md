@@ -3,4 +3,5 @@
 1. Intrudução ao eclipse.
 2. Introdução a sintaxe do Java.
 3. Exemplo Hello Word.
+4. Atividade calculadora.
 ## Semana 2
