@@ -18,7 +18,7 @@ public class Verificação2 {
 		Scanner sc = new Scanner(System.in);
 		String[] idadeParced;
 		
-		System.out.println("Digite sua idade: xx/xx/xxxx");
+		System.out.println("Digite sua idade: DD/MM/AAAA");
 		idade = sc.nextLine();
 		
 		idadeParced = idade.split("/",3);
