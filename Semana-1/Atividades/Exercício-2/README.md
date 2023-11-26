@@ -1,0 +1,3 @@
+# Exercício 2
+
+Em Java se declara uma variável dentro da classe a qual ela pertence com a seguinte sintaxe: TipoDeAcesso TipoVar NomeVar(sendo os tipos primitivos int,string e float os mais comuns);  ,ou seja como Java é completamente orientado a objeto as variáveis sempre estarão relacionadas a uma classe. Já em C++ pode-se criar uma variavel global mas que não esta relacionada com um objeto com a sintaxe: Tipo Var; ,fora da função main. Porem tambem é possivel relacionar as variaveis as classes so que no c++ ele ja tem um espaço certo para o que é publico e o que é privado sendo public: (tudo abaixo é publico) e private: tudo abaixo é private; ,e pro padrão variaveis são privadas.

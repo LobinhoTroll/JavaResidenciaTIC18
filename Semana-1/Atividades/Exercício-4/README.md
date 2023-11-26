@@ -1,0 +1,3 @@
+# Exercício 4
+
+Ao criar uma variável em Java alca-se uma espaço na memoria e qualquer uso dessa variável aponta para esse pedaço da memória ou sera um ponteiro, ao fazer int A = 1 e B = A, o B = 1 pois o o valor de A é 1 mas como B é um ponteiro que aponta para A entao se alterarmos A também alteraremos B ja que B aponta para o mesmo endereço de memória que A, porem no C++ ao fazer B = A o programa retorna um clone do valor de A para B ou seja ele aloca outro espaço na memória e atribui esse valor a B fazendo com que se alteremos A não alteremos B.
