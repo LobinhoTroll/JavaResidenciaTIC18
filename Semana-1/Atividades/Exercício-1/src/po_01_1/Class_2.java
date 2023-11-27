@@ -13,10 +13,10 @@ public class Class_2 {
 	public int getY() {
 		return y;
 	}
-	public void setNome(int x) {
+	public void setX(int x) {
 		this.x = x;
 	}
-	public void setSenha(int y) {
+	public void setY(int y) {
 		this.y = y;
 	}
 	public int Area() {
@@ -44,4 +44,23 @@ public:
 	void setY(int Y);
 	public int Area();
 	};
+public int getX() {
+		return b;
+	}
+public int getY() {
+		return h;
+	}
+public void setX(int b) {
+		this.b = b;
+	}
+public void setY(int h) {
+		this.h = h;
+	}
+public int Area() {
+	return (this.getBase()*this.getAltura())/2;
+	}
+int main(){
+
+	cout<< "Área = " << quadrado.Area() << "M²" << endl;
+}
 */}

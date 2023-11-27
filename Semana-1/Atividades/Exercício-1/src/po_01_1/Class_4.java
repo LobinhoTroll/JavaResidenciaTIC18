@@ -34,4 +34,19 @@ public:
   void setNumero(int id);
   void setNome(String cpf);
 };
+public int getNumero() {
+		return id;
+	}
+public String getNome() {
+		return cpf;
+	}
+public void setNumero(int numero) {
+		this.id = numero;
+	}
+public void setNome(String nome) {
+		this.cpf = nome;
+	}
+
+int main(){}
+
 */

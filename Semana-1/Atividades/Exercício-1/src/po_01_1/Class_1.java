@@ -7,20 +7,20 @@ public class Class_1 {
 	}
 	private int b,h;
 		
-	public int getX() {
+	public int getBase() {
 		return b;
 	}
-	public int getY() {
+	public int getAltura() {
 		return h;
 	}
-	public void setNome(int b) {
+	public void setBase(int b) {
 		this.b = b;
 	}
-	public void setSenha(int h) {
+	public void setAltura(int h) {
 		this.h = h;
 	}
 	public int Area() {
-		return (this.getX()*this.getY())/2;
+		return (this.getBase()*this.getAltura())/2;
 	}
 
 public static void main(String[] args) {
@@ -32,16 +32,35 @@ public static void main(String[] args) {
 
 /*C++
 
-Class Class_2
+Class Class_1
 
-class Class_2
+class Class_1
 {
-	 int x,y;  //São atributos privados por default
+	 int b,h;  //São atributos privados por default
 public:
-	void getX();
-	void getY();
-	void setX(int x);
-	void setY(int Y);
+	void getB();
+	void getH();
+	void setB(int B);
+	void setH(int H);
 	public int Area();
-	};
+};
+public int getBase() {
+		return b;
+	}
+public int getAltura() {
+		return h;
+	}
+public void setBase(int b) {
+		this.b = b;
+	}
+public void setAltura(int h) {
+		this.h = h;
+	}
+public int Area() {
+	return (this.getBase()*this.getAltura())/2;
+	}
+int main(){
+
+	cout<< "Área = " << triangulo.Area() << "M²" << endl;
+}
 */}
