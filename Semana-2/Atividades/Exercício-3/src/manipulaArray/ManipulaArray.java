@@ -57,11 +57,18 @@ public class ManipulaArray {
 		}
 		return menor;
 	}
-	
+	public int somaItensArray() {
+		int soma = 0;
+		for (int i = 0; i < array.length; i++) {
+			soma += array[i];
+		}
+		
+		return soma;
+	}
 	public void printArray() {
 		System.out.print("Array = {");
 		for (int i = 0; i < array.length; i++) {
-			if(i < array.length) {
+			if(i < array.length-1) {
 				System.out.print(array[i]+","); 
 			}
 			if(i == array.length-1) {
@@ -76,12 +83,15 @@ public class ManipulaArray {
 		manipulação.setArrayUser();
 		manipulação.printArray();
 		System.out.println("Maior valor presente no array fornecido pelo usuário: "+manipulação.maiorNumero()+" ,Menor valor: "+manipulação.menorNumero());
+		System.out.println("A soma de todos os itens do array é : "+manipulação.somaItensArray());
 		System.out.println();
 		
 		
 		manipulação.setArraySystem();
 		manipulação.printArray();
 		System.out.println("Maior valor presente no array criado pelo sistema: "+manipulação.maiorNumero()+" ,Menor valor: "+manipulação.menorNumero());
+		System.out.println("A soma de todos os itens do array é : "+manipulação.somaItensArray());
 		System.out.println();
+	
 	}	
 }
