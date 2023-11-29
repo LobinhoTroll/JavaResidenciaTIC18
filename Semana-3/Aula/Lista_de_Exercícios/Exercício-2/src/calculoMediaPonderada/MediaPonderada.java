@@ -7,7 +7,7 @@ public class MediaPonderada {
 		float mt1 = NT1 * PT1;
 		float mt2 = NT2 * PT2;
 		float mt3 = NT3 * PT3;
-		float MP = (mt1+mt2+mt3)/(PT1+PT2+PT3;
+		float MP = (mt1+mt2+mt3)/(PT1+PT2+PT3);
 		return MP;
 	}
 	
